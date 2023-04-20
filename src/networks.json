@@ -1,0 +1,29 @@
+{
+  "42161": {
+    "blockExplorer": "https://arbiscan.io/",
+    "name": "ARBITRUM",
+    "fixedStakingContracts": [
+      {
+        "address": "0x16B42110A38B79a76977e5F27292DF2889E06F20",
+        "APY": "20.2705"
+      }
+    ],
+    "tokenContract": "0x39DB3C6d55b12ADfeF933466069406E692df83c0",
+    "bridgeContract": "0xFF01b75f2c155dBDA36E68eB6557DEE8d36D6A99",
+    "params": {
+      "chainId": "42161",
+      "chainName": "ARBITRUM",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "rpcUrls": [
+        "https://arb1.arbitrum.io/rpc"
+      ],
+      "blockExplorerUrls": [
+        "https://arbiscan.io/"
+      ]
+    }
+  }
+}
