@@ -94,7 +94,7 @@ export function withFixedStakingApi(Component) {
               // },
               {
                 name: 'Generated yield: ',
-                value: harvestableYield,
+                value: harvestableYield*1000000,
               },
               // { name: 'Released yield (harvest + harvestable)', value: 0.674 },
               // { name: 'Harvested yield', value: harvestedYiels },
